@@ -5,86 +5,89 @@ Date: 09/04/2024
 Description: ***
 
 -->
+
+<!--
+Things to take note of:
+Need to make multiple pages. Most likely need to include a header which allows you to switch between each of the different pages
+
+1. Showcasing the frame's story and description.
+
+2. Displaying all of the abilities and their descriptions. Create videos with self using obs.
+
+3. Contains information about the Noctua book. As well as the specific book mods.
+
+4. A page specifically for describing how Final Verse works. Using O's and X's to display the different combinations. Includes 
+videos provided by me of each interaction.
+
+
+
+
+
+
+-->
+
+
+
+
+
+
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Frame Showcase</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 		<h1>Warframe</h1>
 		<hr>
 		<h2>Frame Showcase: Dante</h2> <!-- Insert Javascript var for frame name -->
-		
 		<img src="https://static.wikia.nocookie.net/warframe/images/0/0a/Dante.png/revision/latest?cb=20240327191058" 
 		alt="Dante" width="350" height="350"> <!-- Insert Javascript var for frame picture -->
 		
+
+
+		<!-- Introductory description of the character-->
 		<h2>Description</h2>
-		<p> 
+		<p class="description"> 
 			Dante is a male scribe-themed Warframe who wields Noctua, an Exalted Tome. Dante's new tale began in Update 35.5 
 			(2024-03-27): Dante Unbound.
-		</p>
-
-		<p> 
+		<br><br>
 			Recite the epic tales of yore and chronicle our heroic deeds, woven therein the gilded tapestry of Orokin history. 
 			Since foreshadowed from the Noctua's luminous pages, authored by the Keeper of History, Dante, he illustrates for 
 			defiant foes their predestined demise. Don his occult quills and tome, with gun and blade in tow, to inscribe our 
 			legacy as fate unfolds. Rescind the Corpus plot to denude Leverian's exhibition halls, thus devise narratives yet 
 			unwritten upon its walls.
 		</p>
+		<hr>
+
 		<h2>Story</h2>
-		<p>
+		<p class="story">
 			General
 
-			Dante served as scribe and historian who worked with Entrati. Additionally, he was the main chronicler of the Leverian, a little-known museum named after Drusus Leverian, it's curator. A student of history and avid seeker of knowledge, Dante soon became close friends with both Drusus and Albrecht Entrati's assistant, Loid.
-			
-			Due to his nature as a Warframe, Dante was unable to speak with a conventional voice; instead, he spoke through his writing, and his voice was indeed beautiful.[1] A natural scholar, Dante possessed an affinity for knowledge, and often shared the Entrati's interest with bones and the dead.[2] He even went on to publish some of the finest works detailing ancient Earth archaeology, something that was considered impossible for a mere Warframe to accomplish.[3]
-			
-			Dante was one of the few warframes who didn't immediately go mad and join in the Warframe Insurrection. However, he became a wanted fugitive.[4]
-			Dante's Investigation
-			
-			When Albrecht disappeared, Dante became eager to unveil the mystery behind the disappearance. Despite promising Drusus otherwise, he ventured into Albrecht's Laboratories against his friend's wishes. Within the hauntingly silent halls, Dante encountered the lab's malfunctioning Necramechs; all acting violent and chanting in eldritch Voidtongue.
-			
-			As Drusus watched, the wrong-tongued dialect began to worm into Dante's mind, tempting him with his one weakness; the promise of knowledge. He had discovered The Book, an unknown, unearthly tome of knowledge that was laid as a trap by The Indifference as an attempt to seize control of him. As Dante struggled to resist its knowledge, he heard his dear friend say, "Dante, what you have found can never be brought forth. Parvos must never know of this."
-			
-			Thus, Dante gave up, allowing himself to succumb to the Book's influence and take his life. However, the Book and the hellish words within did not allow Dante to die, and instead altered the very fabric of who the Warframe was. Transported to stars unknown, that wrong-tongued Voice now murmurs endlessly within his head, longing to be known, to exist, and to survive. 
+			Dante served as scribe and historian who worked with Entrati. Additionally, he was the main chronicler of the Leverian, a 
+			little-known museum named after Drusus Leverian, it's curator. A student of history and avid seeker of knowledge, Dante soon 
+			became close friends with both Drusus and Albrecht Entrati's assistant, Loid. Due to his nature as a Warframe, Dante was 
+			unable to speak with a conventional voice; instead, he spoke through his writing, and his voice was indeed beautiful. A 
+			natural scholar, Dante possessed an affinity for knowledge, and often shared the Entrati's interest with bones and the dead. 
+			He even went on to publish some of the finest works detailing ancient Earth archaeology, something that was considered 
+			impossible for a mere Warframe to accomplish. Dante was one of the few warframes who didn't immediately go mad and join in 
+			the Warframe Insurrection. However, he became a wanted fugitive. Dante's Investigation. When Albrecht disappeared, Dante 
+			became eager to unveil the mystery behind the disappearance. Despite promising Drusus otherwise, he ventured into Albrecht's 
+			Laboratories against his friend's wishes. Within the hauntingly silent halls, Dante encountered the lab's malfunctioning 
+			Necramechs; all acting violent and chanting in eldritch Voidtongue. As Drusus watched, the wrong-tongued dialect began to 
+			worm into Dante's mind, tempting him with his one weakness; the promise of knowledge. He had discovered The Book, an unknown, 
+			unearthly tome of knowledge that was laid as a trap by The Indifference as an attempt to seize control of him. As Dante 
+			struggled to resist its knowledge, he heard his dear friend say, "Dante, what you have found can never be brought forth. 
+			Parvos must never know of this. "Thus, Dante gave up, allowing himself to succumb to the Book's influence and take his life. 
+			However, the Book and the hellish words within did not allow Dante to die, and instead altered the very fabric of who the 
+			Warframe was. Transported to stars unknown, that wrong-tongued Voice now murmurs endlessly within his head, longing to be 
+			known, to exist, and to survive. 
 		</p>
-		<h2>Abilities</h2> <!-- Include images from the wiki and potentially gifs provided by me as ability previews
-								Clicking on the ability picture should cause a textbox appear with the ability description -->
-							<!-- Table for abilities -->
-		<table>
-			<tr>
-				<th>Ability</th>
-				<th>Icon</th>
-				<th>Description</th>
-			</tr>
-			<tr>
-			<th>Noctua</th>
-			<td>
-			<!-- Use CSS invert filter to invert the colors of the images -->
-			<!-- Uses linked in images-->
-			<img src = "https://static.wikia.nocookie.net/warframe/images/0/06
-			/Noctua130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191148" alt = "Noctua">
-			</td>
-			
-			<th>Light Verse</th>
-			<td>
-			<img src = "https://static.wikia.nocookie.net/warframe/images/5/55
-			/LightVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191140" alt = "Light Verse">
-			</td>
-			
-			<th>Dark Verse<th>
-			<td>
-			<img src = "https://static.wikia.nocookie.net/warframe/images/4/49
-			/DarkVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191121" alt = "Dark Verse">
-			</td>
-			
-			<th>Final Verse<th>
-			<td>
-			<img src = "https://static.wikia.nocookie.net/warframe/images/4/4f
-			/FinalVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191125" alt = "Final Verse">
-			</td>
+
 		
+
+		<!-- Reference the sources for the information and the images in a comment on the top of the page-->
 		<source></source>
 		<!--
 		<audio controls>
@@ -92,5 +95,7 @@ Description: ***
 		</audio>
 		-->
 	</body>
+	<!--
 	<script src="script.js"></script>
+	-->
 </html>
