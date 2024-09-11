@@ -1,0 +1,3 @@
+Noctua is Dante's fully customizable book granted to him while using his first ability, Noctua. It fires a single rate of fire blast that explodes on contact with the enemy. As you continue landing hits on the enemy, it builds up a secondary meter located below the player's crosshair. When this meter is filled to it's maximum, the special fire button can be pressed to launch a large projectile that can infinitely phase through enemies and obstacles for up to 30 meters.
+
+In addition to being a powerful weapon, it also can be customized using specific modifications unique to the Book weapon type.

@@ -1,0 +1,39 @@
+body
+{
+	background-color : #2e3a2b; /* Backup color = Dark Black: #424549*/
+	color: white;
+}
+
+h1, h2
+{
+	color: white;
+	text-align: left;
+	margin-left: 2.5%;
+}
+
+p
+{
+	text-align: justify;
+	margin-left:2.5%;
+	margin-right:2.5%;
+}
+
+tr.table_headers
+{
+	font-size: 25px;
+}
+
+th.ability_name
+{
+	font-size: 20px;
+}
+
+td.ability_desc
+{
+	font-size: 18px;
+}
+
+img
+{
+	image-rendering: smooth;
+}

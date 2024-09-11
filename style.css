@@ -1,12 +1,16 @@
 body
 {
-	background-color : #424549;
+	background-color : #2e3a2b; /* Backup color = Dark Black: #424549*/
 	color: white;
-	font-color : white;
 }
 
 h1
 {
 	color: white;
 	text-align: left;
+}
+
+p
+{
+	text-align: center;
 }
