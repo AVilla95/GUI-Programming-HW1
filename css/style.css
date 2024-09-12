@@ -1,7 +1,19 @@
 body
 {
-	background-color : #2e3a2b; /* Backup color = Dark Black: #424549*/
+	background-color : #293127; /* Backup color = Dark Black: #424549*/
 	color: white;
+}
+
+a
+{
+	font-size:25px;
+	color:white;
+	background-color: darkslategray;
+	text-decoration: none;
+	margin-left: 2.5%;
+	border-style:solid;
+	border-radius: 5px;
+	padding: 5px;
 }
 
 h1, h2
@@ -16,6 +28,9 @@ p
 	text-align: justify;
 	margin-left:2.5%;
 	margin-right:2.5%;
+	border-style: solid;
+	background-color: darkslategray;
+	padding: 15px;
 }
 
 tr.table_headers
@@ -23,17 +38,43 @@ tr.table_headers
 	font-size: 25px;
 }
 
-th.ability_name
+td.ability_name
 {
 	font-size: 20px;
+	text-align:center;
 }
 
 td.ability_desc
 {
 	font-size: 18px;
 }
+img.ability_image
+{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-color: white;
+}
 
-img
+img.frame_image
+{
+	margin-left: auto;
+	border-style: solid;
+	border-color: white;
+	background-color: darkgray;
+}
+
+td.ability_table
+{
+	padding-left:5%;
+	padding-right:5%;
+	text-align:center;
+}
+
+img.icon
 {
 	image-rendering: smooth;
+	border-style: solid;
+	background-color: black;
 }

@@ -8,23 +8,94 @@ Description: ***
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Example Website</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Frame Abilities</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-		<h1>This is the Main Heading</h1>
-		<p>This text might be an introduction to the rest of the page. And if the page is a 
-			 long one it might be split up into several sub-headings.<p>
-		<h2>This is a Sub-Heading</h2>
-		<p>Many long articles have sub-headings so to help you follow the structure of what 
-			 is being written. There may even be sub-sub-headings (or lower-level headings).
-			 </p>
-		<h2>Another Sub-Heading</h2>
-		<p>Here you can see another sub-heading.</p>
-
-<h2>Abilities</h2> <!-- Include images from the wiki and potentially videos/gifs provided by me as ability previews
+		<h1>Warframe</h1>
+		<a href="index.html" class="button">Story</a>
+		<a href="Abilities.html" class="button">Abilities</a>
+		<a href="Noctua.html" class="button">Noctua</a>
+		<a href="Final_Verse.html" class="button">Final Verse</a>
+	<hr>
+	<h2>Frame Abilities</h2> <!-- Include images from the wiki and potentially videos/gifs provided by me as ability previews
 								Clicking on the ability picture should cause a textbox appear with the ability description -->
 		<!-- Table for abilities -->
+		<table>
+			<tr>
+				<th>
+					<img class="icon" src = "https://static.wikia.nocookie.net/warframe/images/0/06/Noctua130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191148" 
+					alt = "Noctua" height="80"; width="80">
+				</th>
+				<th>
+					<img class="icon" src = "https://static.wikia.nocookie.net/warframe/images/5/55/LightVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191140" 
+					alt = "Light Verse" height="80"; width="80">
+				</th>
+
+			</tr>
+
+			<tr>
+				<td class="ability_name">
+					Noctua
+				</td>
+				<td class="ability_name">
+					Light Verse
+				</td>
+			</tr>
+
+			<tr>
+				<td class="ability_table">Open Noctua, Dante’s Exalted Tome, and unleash a tale of woe upon his enemies.</td>
+				<td class="ability_table">Dante’s vitalizing composition grants him and his allies Overguard and increases their Max Health.</td>
+
+			</tr>
+
+			<tr>
+				<td>
+					<img class = "ability_image" src="Videos/Noctua.gif" alt="Noctua" height="250px">
+				</td>
+				<td>
+					<img class = "ability_image" src="Videos/Light_Verse.gif" alt="Light Verse" height="250px">
+				</td>
+			</tr>
+
+		</table>
+		<hr>
+		<table>
+			<tr>
+				<th>
+					<img class="icon" src = "https://static.wikia.nocookie.net/warframe/images/4/49/DarkVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191121"
+					 alt = "Dark Verse" height="80"; width="80">
+				</th>
+				<th>
+					<img class="icon" src = "https://static.wikia.nocookie.net/warframe/images/4/4f/FinalVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191125"
+					 alt = "Final Verse" height="80"; width="80">
+				</th>
+			</tr>
+			<tr>
+				<td class="ability_name">
+					Dark Verse
+				</td>
+				<td class="ability_name">
+					Final Verse
+				</td>
+			</tr>
+			<tr>
+				<td class="ability_table">Dante’s composition draws blood from nearby enemies, inflicting Slash Damage upon them.</td>
+				<td class="ability_table">Dante must compose two other Verses before his Final Verse.</td>
+			</tr>
+			<tr>
+				<td>
+					<img class = "ability_image" src="Videos/Dark_Verse.gif" alt="Dark Verse" height="250px">
+				</td>
+				<td>
+					<img class = "ability_image" src="Videos/Final_VerseOO.gif" alt="Final Verse" height="250px">
+				</td>
+			</tr>
+		</table>
+		
+		
+		
+		<!--
 		<table>
 			<tr class="table_headers">
 				<th>Ability</th>
@@ -35,12 +106,12 @@ Description: ***
 			<tr>
 			    <th class="ability_name">Noctua</th>
 			    <td>
-			        <img src = "https://static.wikia.nocookie.net/warframe/images/0/06
-			        /Noctua130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191148" alt = "Noctua" height="80"; width="80">
+			        <img class="icon" src = "https://static.wikia.nocookie.net/warframe/images/0/06/Noctua130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191148" 
+					alt = "Noctua" height="80"; width="80">
 			    </td>
 
 			    <td class="ability_desc">
-                    
+                    Open Noctua, Dante’s Exalted Tome, and unleash a tale of woe upon his enemies. 
 			    </td>
 
 			</tr>
@@ -48,12 +119,11 @@ Description: ***
 			<tr>
                 <th class="ability_name">Light Verse</th>
                 <td>
-                    <img src = "https://static.wikia.nocookie.net/warframe/images/5/55
-                    /LightVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191140" alt = "Light Verse" height="80"; width="80">
+                    <img class="icon" src = "https://static.wikia.nocookie.net/warframe/images/5/55/LightVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191140" 
+					alt = "Light Verse" height="80"; width="80">
                 </td>
-
-                <td class="ability_desc">
-                    
+				<td class="ability_desc">
+                    Dante’s vitalizing composition grants him and his allies Overguard and increases their Max Health.
                 </td>
 
 			</tr>
@@ -61,12 +131,12 @@ Description: ***
 			<tr>
                 <th class="ability_name">Dark Verse</th>
                 <td>
-                    <img src = "https://static.wikia.nocookie.net/warframe/images/4/49
-                    /DarkVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191121" alt = "Dark Verse" height="80"; width="80">
+                    <img class="icon" src = "https://static.wikia.nocookie.net/warframe/images/4/49/DarkVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191121"
+					 alt = "Dark Verse" height="80"; width="80">
                 </td>
                 
                 <td class="ability_desc">
-                    
+                    Dante’s composition draws blood from nearby enemies, inflicting Slash Damage upon them.
                 </td>
 
 			</tr>
@@ -74,20 +144,18 @@ Description: ***
 			<tr>
                 <th class="ability_name">Final Verse<th>
                 <td>
-                    <img src = "https://static.wikia.nocookie.net/warframe/images/4/4f
-                    /FinalVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191125" alt = "Final Verse" height="80"; width="80">
+                    <img class="icon" src = "https://static.wikia.nocookie.net/warframe/images/4/4f/FinalVerse130xWhite.png/revision/latest/scale-to-width-down/50?cb=20240327191125"
+					 alt = "Final Verse" height="80"; width="80">
                 </td>
                 
                 <td class="ability_desc">
-                    blah
+                    Dante must compose two other Verses before his Final Verse.
                 </td>
                 
 			</tr>
-
-
-
-
-
+		</table>
+	-->
+			
 
 
 
