@@ -1,9 +1,20 @@
+/*
+Name: Armando Villa
+Date: 09/04/2024
+Description: The css file for all of the webpages. The naming sense for some of the classes overlap a
+bit a but it mainly works for the size of the site.
+
+Coloring sense is a bit gross but graphic design is not really my passion.
+
+*/
+/* body */
 body
 {
-	background-color : #293127; /* Backup color = Dark Black: #424549*/
+	background-color : #293b33; /* Backup color = Dark Black: #424549,	Dark Green: #293127*/
 	color: white;
 }
 
+/* a */
 a
 {
 	font-size:25px;
@@ -16,6 +27,13 @@ a
 	padding: 5px;
 }
 
+a.css_valid
+{
+	border:none;
+	background:none;
+}
+
+/* h1, h2 */
 h1, h2
 {
 	color: white;
@@ -23,8 +41,16 @@ h1, h2
 	margin-left: 2.5%;
 }
 
+h1.legend
+{
+	font-size:300%;
+	margin-left: 2.5%
+}
+
+/* p */
 p
 {
+	font-size:125%;
 	text-align: justify;
 	margin-left:2.5%;
 	margin-right:2.5%;
@@ -33,11 +59,13 @@ p
 	padding: 15px;
 }
 
+/* tr */
 tr.table_headers
 {
 	font-size: 25px;
 }
 
+/* td */
 td.ability_name
 {
 	font-size: 20px;
@@ -46,8 +74,36 @@ td.ability_name
 
 td.ability_desc
 {
-	font-size: 18px;
+	font-size:125%;
+	padding-left:5%;
+	padding-right:5%;
+	text-align:center;
 }
+
+td.verse_icon
+{
+	font-size:400%;
+	text-align:center;
+	text-wrap:nowrap;
+	border-right:thin;
+}
+
+td.verse_desc
+{
+	font-size:125%;
+	padding:10px;
+	text-align:justify;
+}
+
+/* img */
+img.frame_image
+{
+	margin-left: 2.5%;
+	border-style: solid;
+	border-color: white;
+	background-color: darkgray;
+}
+
 img.ability_image
 {
 	display:block;
@@ -57,23 +113,24 @@ img.ability_image
 	border-color: white;
 }
 
-img.frame_image
+img.icon
 {
-	margin-left: auto;
+	image-rendering: smooth;
+	border-style: solid;
+	background-color: black;
+}
+
+img.noctua_image
+{
+	margin-left: 15%;
 	border-style: solid;
 	border-color: white;
 	background-color: darkgray;
 }
 
-td.ability_table
+img.verse_icon
 {
-	padding-left:5%;
-	padding-right:5%;
-	text-align:center;
-}
-
-img.icon
-{
+	margin-left: 2.5%;
 	image-rendering: smooth;
 	border-style: solid;
 	background-color: black;
